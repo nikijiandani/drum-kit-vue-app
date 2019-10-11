@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Poushita msg="Welcome to Poushita's Vue.js App"/>
+    <PerrysComponent msg="Hello, my name is Perry and this is my component"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Poushita from "./components/Poushita.vue";
+import PerrysComponent from './components/PerrysComponent.vue'
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    Poushita
+    Poushita,
+    PerrysComponent
   }
 };
 </script>
