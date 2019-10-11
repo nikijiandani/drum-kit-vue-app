@@ -1,22 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <NikiJiandani msg="Hello from Niki's component!" />
     <PerrysComponent msg="Hello, my name is Perry and this is my component" />
+    <Poushita msg="Welcome to Poushita's Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import NikiJiandani from "./components/NikiJiandani.vue";
 import PerrysComponent from "./components/PerrysComponent.vue";
+import Poushita from "./components/Poushita.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld,
     NikiJiandani,
+    Poushita,
     PerrysComponent
   }
 };
