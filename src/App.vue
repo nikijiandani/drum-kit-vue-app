@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <NikiJiandani msg="Hello from Niki's component!" />
+    <PerrysComponent msg="Hello, my name is Perry and this is my component" />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import NikiJiandani from "./components/NikiJiandani.vue";
+import PerrysComponent from "./components/PerrysComponent.vue";
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    NikiJiandani
+    NikiJiandani,
+    PerrysComponent
   }
 };
 </script>
