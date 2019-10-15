@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <NikiJiandani msg="Hello from Niki's component!" />
-    <PerrysComponent msg="Hello, my name is Perry and this is my component" />
-    <Poushita msg="Welcome to Poushita's Vue.js App" />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <NikiJiandani msg="Hello from Niki's component!"/>
+    <PerrysComponent msg="Hello, my name is Perry and this is my component"/>
+    <Poushita msg="Welcome to Poushita's Vue Component"/>
   </div>
 </template>
 
